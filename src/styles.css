@@ -27,7 +27,7 @@ https://medium.com/@AmJustSam
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  background-image:url(http://bit.ly/2gPLxZ4);
+  background-image:url("http://bit.ly/2gPLxZ4");
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica;
@@ -38,39 +38,14 @@ https://medium.com/@AmJustSam
   -webkit-font-smoothing: antialiased; 
  }
  
- .blurred-box{
-   position: relative;
-   width: 250px;
-   height: 350px;
-   top: calc(50% - 175px);
-   left: calc(50% - 125px);
-   background: inherit;
-   border-radius: 2px;
-   overflow: hidden;
- }
- 
- .blurred-box:after{
-  content: '';
-  width: 300px;
-  height: 300px;
-  background: inherit; 
-  position: absolute;
-  left: -25px;
 
-  right: 0;
-  top: -25px;
-
-  bottom: 0;
-  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
-  filter: blur(10px);
- }
 
 .navigation {
   font-size: 3rem;
-  color: #46009e;
+  color: #45caff;
   background-color: #ffea00;
   padding: 1rem;
-  border-bottom-right-radius: 2rem;
+ 
 }
 
 img {
@@ -80,8 +55,7 @@ img {
 
 .scetion-one {
   background-color: #ffeb22;
-  border-top-left-radius: 2rem;
-}
+ }
 
 .inputbox {
   margin: 1rem;
